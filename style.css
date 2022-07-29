@@ -53,11 +53,11 @@ nav ul li{
     flex-direction: column;
    
 }
-.bottom banner{
-    display:flex;
-    background-color: aliceblue;
-    size: adjust 5px;;
+.bottom bannner img{
+    width: 20%; ;
+
 }
+    
 #myProgressBar{
     width: 50vw;
 }
@@ -93,4 +93,12 @@ nav ul li{
 }
 .timespan i{
     cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 25vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
 }
